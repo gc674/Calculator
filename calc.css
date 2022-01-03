@@ -1,0 +1,46 @@
+body {
+    margin: 0 auto;
+    background-color: beige;
+}
+* {
+    box-sizing: border-box;
+}
+
+button {
+    text-align: center;
+    width: 75px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttonEq {
+    background-color: #4CAF50;
+}
+.buttonOp {
+    background-color: #c0bff5;
+}
+.buttonDel {
+    background-color: #eb4457;
+}
+
+input{
+    background-color: gainsboro;
+    color: black;
+    font-size: 30px;
+    text-align: right;
+    height: 75px;
+}
+
+div {
+    padding: 10px;
+    margin: 10px;
+}
+.divM {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 40%;
+    align-items: center;
+    border:2px solid black;
+}
