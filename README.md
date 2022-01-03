@@ -40,6 +40,5 @@ EN
 ```
 pwa solution inspired from:
 
-Ibrahima Ndaw
-https://www.freecodecamp.org/news/build-a-pwa-from-scratch-with-html-css-and-javascript/
 ```
+[Ibrahima Ndaw - FreecodeCamp](https://www.freecodecamp.org/news/build-a-pwa-from-scratch-with-html-css-and-javascript/)
