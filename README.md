@@ -1,12 +1,11 @@
 # Calculator
+```text
 tiny html javascript pwa calculator
 ```
-tiny html javascript pwa app
-```
 ## Requirements
-
-
-
+```
+no requirements, plain html, css, javascript
+```
 ## Usage
 
 ```
@@ -37,8 +36,5 @@ EN
 [Make a README](https://www.makeareadme.com/)
 
 ## Thanks to:
-```
 pwa solution inspired from:
-
-```
 [Ibrahima Ndaw - FreecodeCamp](https://www.freecodecamp.org/news/build-a-pwa-from-scratch-with-html-css-and-javascript/)
