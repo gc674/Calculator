@@ -48,8 +48,8 @@ body{
 .offset-12 {margin-left: 100%;}
 
 button {
-    border-radius: 10px;
-    font-size: 30px;
+    border-radius: 1vw;
+    font-size: 3vw;
     text-align: center;
     font-weight: bold;
     cursor: pointer;
@@ -57,31 +57,31 @@ button {
 }
 .buttonEq {
     background-color: #4CAF50;
-    border-radius: 10px;
+    border-radius: 1vw;
 }
 .buttonOp {
-    border-radius: 10px;
+    border-radius: 1vw;
     background-color: #c0bff5;
 }
 .buttonDel {
-    border-radius: 10px;
+    border-radius: 1vw;
     background-color: #eb4457;
 }
 
 input{
     background-color: gainsboro;
     color: black;
-    font-size: 30px;
+    font-size: 5vw;
     text-align: right;
-    height: 75px;
+    height: 7vw;
 }
 
 div {
     padding: 5px;
 }
 .divM {
-    position: absolute;
+    position: fixed;
     text-align: center;
     top: 25%;
-    border:2px solid black;
+    border: 0.3vw solid black;
 }
