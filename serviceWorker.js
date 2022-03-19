@@ -5,6 +5,7 @@ const assets = [
     "index.html",
     "calc.css",
     "app.js",
+    "favicon-32x32.png",
 ]
 
 self.addEventListener("install", installEvent => {
