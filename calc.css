@@ -1,26 +1,70 @@
-body {
+body{
     margin: 0 auto;
     background-color: beige;
 }
-* {
+
+*{
     box-sizing: border-box;
 }
 
+/* FIX for float*/
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* css all elements beginning with "col-" */
+[class*="col-"]{
+    float: left;
+}
+
+/* default classes width*/
+.col-lg-1 {width: 8.33%;}
+.col-lg-2 {width: 16.66%;}
+.col-lg-3 {width: 25%;}
+.col-lg-4 {width: 33.33%;}
+.col-lg-5 {width: 41.66%;}
+.col-lg-6 {width: 50%;}
+.col-lg-7 {width: 58.33%;}
+.col-lg-8 {width: 66.66%;}
+.col-lg-9 {width: 75%;}
+.col-lg-10 {width: 83.33%;}
+.col-lg-11 {width: 91.66%;}
+.col-lg-12 {width: 100%;}
+
+/* default classes margin*/
+.offset-1 {margin-left: 8.33%;}
+.offset-2 {margin-left: 16.66%;}
+.offset-3 {margin-left: 25%;}
+.offset-4 {margin-left: 33.33%;}
+.offset-5 {margin-left: 41.66%;}
+.offset-6 {margin-left: 50%;}
+.offset-7 {margin-left: 58.33%;}
+.offset-8 {margin-left: 66.66%;}
+.offset-9 {margin-left: 75%;}
+.offset-10 {margin-left: 83.33%;}
+.offset-11 {margin-left: 91.66%;}
+.offset-12 {margin-left: 100%;}
+
 button {
+    border-radius: 10px;
+    font-size: 30px;
     text-align: center;
-    width: 75px;
-    height: 50px;
-    font-size: 25px;
     font-weight: bold;
     cursor: pointer;
+
 }
 .buttonEq {
     background-color: #4CAF50;
+    border-radius: 10px;
 }
 .buttonOp {
+    border-radius: 10px;
     background-color: #c0bff5;
 }
 .buttonDel {
+    border-radius: 10px;
     background-color: #eb4457;
 }
 
@@ -33,14 +77,11 @@ input{
 }
 
 div {
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
 }
 .divM {
     position: absolute;
     text-align: center;
-    top: 20%;
-    left: 40%;
-    align-items: center;
+    top: 25%;
     border:2px solid black;
 }
